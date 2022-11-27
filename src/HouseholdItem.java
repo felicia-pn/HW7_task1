@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface HouseholdItem {
+
+public interface HouseholdItem {
+
+    public default void accept(Visitor v) {
+
+    }
 }
